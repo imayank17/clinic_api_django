@@ -13,6 +13,7 @@ class Appointment(models.Model):
     date = models.DateTimeField()
     doctor_name = models.CharField(max_length=100)
     reason = models.TextField()
+    status = models.CharField(max_length=20, default="Scheduled")
 
     def __str__(self):
         return f"{self.patient.name} - {self.doctor_name}"
