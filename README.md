@@ -1,5 +1,7 @@
 # Clinic API
 
+![Result](result.png)
+
 A simple and intuitive REST API built with Django and Django REST Framework for managing clinic patients and appointments.
 
 ## Features
